@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+**/node_modules/
+.pnp
+.pnp.js
+
+# Environment variables - NEVER commit secrets
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Production Build outputs
+dist/
+**/dist/
+build/
+**/build/
+out/
+**/out/
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Logs & task logs
+logs/
+**/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Prisma & SQLite databases
+prisma/migrations/dev.db
+*.db
+*.db-journal
+
+# Test Coverage
+coverage/
+**/coverage/
+
+# Temporary files
+*.tmp
+*.temp
