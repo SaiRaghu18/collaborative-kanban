@@ -10,7 +10,7 @@ COPY prisma ./prisma/
 
 RUN npm ci
 
-COPY tsconfig.json ./
+COPY tsconfig*.json ./
 COPY src ./src/
 
 RUN npx prisma generate
